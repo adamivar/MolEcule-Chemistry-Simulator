@@ -8,7 +8,7 @@ import particle
 import itertools
 
 print_events = False
-print_debug = True
+print_debug = False
 print_zbug = False
 
 def p(string):
@@ -83,7 +83,7 @@ def main():
     screen_width = 1900
     screen_hight = 1000
     window = pygame.display.set_mode((screen_width, screen_hight))
-    pygame.display.set_caption("Pygame Template")
+    pygame.display.set_caption("Mole-ecules Game Beta")
 
     # Variables for the dot objects
     dots = []

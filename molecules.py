@@ -126,7 +126,7 @@ class BerylliumNitride:
     decomposition_products = {"Be": 3, "N2": 1}
 
 class NitricOxide:
-    name = "Be3N2"
+    name = "NO"
     molarVolume = 20.25
     color = (240, 240, 230)
     tempLimits = [2200, 2240]
@@ -134,7 +134,7 @@ class NitricOxide:
     decomposition_temperature = 10000
     decomposition_products = {"Be": 3, "N2": 1}
 
-    
+
 
 class Water:
     name = "H2O"

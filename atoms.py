@@ -45,7 +45,7 @@ class Carbon_6:
 class Nitrogen_7:
     name = "N2"
     molarVolume = 34
-    color = (144, 144, 144)
+    color = (40, 80, 248)
     tempLimits = [-210, -196]
     state_STP = "gas"
 

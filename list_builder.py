@@ -9,9 +9,9 @@ def build_particles_list(module):
     return classes
 
 def build_particles_name_dictionary(module):
-    classes = []
+    classes = {}
     for name, obj in inspect.getmembers(module):
         if inspect.isclass(obj):
-            classes.append(objnone of the)
+            classes[obj.name] = obj
     return classes
 

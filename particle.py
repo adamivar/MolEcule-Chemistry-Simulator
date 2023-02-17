@@ -32,8 +32,8 @@ class Particle:
             self.x += self.speed_x*5
             self.y += self.speed_y*5
         elif self.state == "liquid":
-            self.x += random.uniform(-1, 1) + self.speed_x*.02
-            self.y += random.uniform(-1, 1) + self.speed_y*.02
+            self.x += random.uniform(-multiplier, multiplier) + self.speed_x*.02
+            self.y += random.uniform(-multiplier, multiplier) + self.speed_y*.02
             self.radius = maths.find_radius_from_volume(self.mols * self.chemical.molarVolume, 4, 10)
         elif self.state == "solid":
             self.radius = maths.find_radius_from_volume(self.mols * self.chemical.molarVolume, 4, 10)

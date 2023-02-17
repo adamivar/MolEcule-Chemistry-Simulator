@@ -13,3 +13,8 @@ def find_colliding_point_between_two_circles(x1, y1, r1, x2, y2, r2):
     mid_x = (r1 * x2 + r2 * x1) / (d)
     mid_y = (r1 * y2 + r2 * y1) / (d)
     return (mid_x, mid_y)
+
+def celsius_to_kelvin_fahrenheit(celsius):
+    kelvin = celsius + 273.15
+    fahrenheit = (celsius * 9/5) + 32
+    return (kelvin, fahrenheit)

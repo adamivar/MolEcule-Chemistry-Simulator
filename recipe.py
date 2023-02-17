@@ -21,7 +21,9 @@ recipes_unformatted = {
     "2Li + 2NH3 = 2LiNH2 + H2": {"temp": 400},
     "3Be + N2 = Be3N2": {"temp": 1100},
     "Be3N2 + 6H2O = 3Be(OH)2 + 2NH3": {"temp": 1100},
-    
+    "N2 + O2 = 2NO": {"temp": 2000},
+
+
 
 
 
