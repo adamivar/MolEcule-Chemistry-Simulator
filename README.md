@@ -4,7 +4,7 @@ A Python/Pygame chemistry simulator that lets you spawn elements from the period
 
 ![Simulator screenshot](Screenshot%202023-02-17%20011030.png)
 
-> **Download (Windows .exe):** [Google Drive](https://drive.google.com/file/d/1zk_iCjAuCVrXg2edj_4g1DQ3IH-HSuxB/view?usp=sharing)
+> **Download (Windows .exe):** [MolEcule.zip](https://github.com/adamivar/MolEcule-Chemistry-Simulator/releases/download/v1.0.0/MolEcule.zip)
 
 ---
 
